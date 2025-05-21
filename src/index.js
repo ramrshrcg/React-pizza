@@ -123,11 +123,11 @@ function Footer() {
   const isOpen = hour >= openHour && hour <= closeHour;
   console.log(hour);
 
-  const local_time = new Date().toLocaleTimeString("en-GB", {
-    hour: "2-digit",
-    minute: "2-digit",
-    second: "2-digit",
-  });
+  // const local_time = new Date().toLocaleTimeString("en-GB", {
+  //   hour: "2-digit",
+  //   minute: "2-digit",
+  //   second: "2-digit",
+  // });
 
   return (
     <footer className="footer">
